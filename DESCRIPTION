@@ -1,0 +1,21 @@
+Package: mytools
+Type: Package
+Title: Small tools for data analysis
+Version: 0.1.1
+Author: Atsushi YASUMOTO
+Maintainer: Atsushi YASUMOTO <yasumoto@kueps.kyoto-u.ac.jp>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Depends: R(>= 2.10.0)
+Imports: grid,
+    stringr,
+    rmarkdown,
+    data.table,
+    readxl,
+    readODS,
+    pipeR,
+    readr
