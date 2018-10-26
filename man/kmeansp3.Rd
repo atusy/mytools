@@ -4,8 +4,8 @@
 \alias{kmeansp3}
 \title{kmeans+++. You can specify some centers meaningly and others randomly based on the method of kmeans++.}
 \usage{
-kmeansp3(x, k = 2, centers_manual = NULL, scale = TRUE, iter.max = 1000,
-  nstart = 1, algorithm = "Lloyd")
+kmeansp3(x, k = 2, centers_manual = NULL, scale = TRUE,
+  iter.max = 1000, nstart = 1, algorithm = "Lloyd")
 }
 \arguments{
 \item{x}{input data}

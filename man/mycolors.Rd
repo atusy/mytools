@@ -4,7 +4,8 @@
 \alias{mycolors}
 \title{color LUT}
 \usage{
-mycolors(palette = c("pcol", "gray"), n = NULL, dec = FALSE, LUT = NULL)
+mycolors(palette = c("pcol", "gray"), n = NULL, dec = FALSE,
+  LUT = NULL)
 }
 \arguments{
 \item{palette}{palette to be used as LUT. either pcol (= pseudocolor) or gray. It is ignored when LUT is specified.}

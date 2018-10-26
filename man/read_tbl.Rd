@@ -2,7 +2,7 @@
 % Please edit documentation in R/read_tbl_interactive.R
 \name{read_tbl}
 \alias{read_tbl}
-\title{interactively read spreadsheet}
+\title{interactively read spreadsheet (xls, xlsx, ods, csv)}
 \usage{
 read_tbl(input = NULL, sheet = NULL, transposing = NULL)
 }
@@ -14,5 +14,5 @@ read_tbl(input = NULL, sheet = NULL, transposing = NULL)
 \item{transposing}{leave NULL when interactive}
 }
 \description{
-interactively read spreadsheet
+interactively read spreadsheet (xls, xlsx, ods, csv)
 }

@@ -4,7 +4,8 @@
 \alias{tread_excel}
 \title{transposing fread}
 \usage{
-tread_excel(input, sheet = 1, error_as_NA = TRUE, rm_blank_col = TRUE)
+tread_excel(input, sheet = 1, error_as_NA = TRUE,
+  rm_blank_col = TRUE)
 }
 \arguments{
 \item{input}{input data}

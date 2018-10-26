@@ -4,7 +4,8 @@
 \alias{norm_geochem}
 \title{Normalize geochemical data and tydir::gather for spider diagram}
 \usage{
-norm_geochem(x, keep = NULL, unit = "ppm", std = "~/R/geochem/ms95.csv")
+norm_geochem(x, keep = NULL, unit = "ppm",
+  std = "~/R/geochem/ms95.csv")
 }
 \arguments{
 \item{x}{Input data.frame. Components not in the std file won't be normalized.}
