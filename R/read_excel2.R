@@ -2,6 +2,7 @@
 #'
 #' @param input input data
 #' @param sheet numeric or character to select sheet
+#' @param transposing transpose data frame when rows are variables and cols are observations
 #' @param error_as_NA turn error as NA (e.g., #DIV/0!)
 #' @param rm_blank_col boolean to decide removing blank columns
 #'

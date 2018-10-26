@@ -10,6 +10,8 @@ fread2(input, transposing = TRUE, remove_null = TRUE, ss = c("excel",
 \arguments{
 \item{input}{input data}
 
+\item{transposing}{transpose data frame when rows indicate variables and cols indicate observations}
+
 \item{remove_null}{TRUE in default to reduce data}
 
 \item{ss}{name of spreadsheet software. Error values from the given ss are replaced by NA}

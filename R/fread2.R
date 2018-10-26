@@ -1,11 +1,11 @@
 #' transposing fread
 #'
 #' @param input input data
+#' @param transposing transpose data frame when rows indicate variables and cols indicate observations
 #' @param remove_null TRUE in default to reduce data
 #' @param ss name of spreadsheet software. Error values from the given ss are replaced by NA
 #' @param args1 additional arguments given to first fread
 #' @param args2 additional arguments given to second fread
-#'
 #' @importFrom data.table fread
 #' @importFrom stringr str_replace_all
 #'

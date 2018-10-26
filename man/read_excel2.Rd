@@ -12,6 +12,8 @@ read_excel2(input, sheet = 1, transposing = TRUE, error_as_NA = TRUE,
 
 \item{sheet}{numeric or character to select sheet}
 
+\item{transposing}{transpose data frame when rows are variables and cols are observations}
+
 \item{error_as_NA}{turn error as NA (e.g., #DIV/0!)}
 
 \item{rm_blank_col}{boolean to decide removing blank columns}

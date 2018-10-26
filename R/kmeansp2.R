@@ -4,6 +4,7 @@
 #' @param iter.max the maximum number of iterations allowed
 #' @param nstart if centers is a number, how many random sets should be chosen?
 #' @param ... additional arguments given to kmeans()
+#' @importFrom stats kmeans
 #' @export
 kmeansp2 <- function(x, k, iter.max = 10, nstart = 1, ...) {
   n <- nrow(x) # number of data points

@@ -3,6 +3,7 @@
 #' @param n number of output colors. When n is more than number of colors in the specified palette, output contains duplicated colors.
 #' @param dec FALSE in default outputs a vector of RGB colors. TRUE outputs matrix whose columns are R, G, and B, and whose values are in decimals.
 #' @param LUT NULL in default will be ignored. You can input a vector of color names.
+#' @importFrom grDevices col2rgb
 #' @export
 mycolors <- function(palette = c('pcol', 'gray'), n = NULL, dec = FALSE, LUT = NULL) {
   if(is.null(LUT)) LUT <- colors[[match.arg(palette)]]
