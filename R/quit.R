@@ -1,9 +1,13 @@
 #' short cut to terminate R
-#' @param save default to no
-#' @param status default to 0
-#' @param runLast default to TRUE
 #' @export
-q <- function (save = "no", status = 0, runLast = TRUE) quit(save, status, runLast)
-#class(Q)=Q="no";print.no=q
+# q <- function (save = "no", status = 0, runLast = TRUE) quit(save, status, runLast)
+Q <- structure("no", class = "no")
+
+#' @noRd
+#' @export
+print.no <- function(x, ...) {
+  q(x)
+  invisible(x)
+}
 
 
